@@ -27,6 +27,11 @@ integer n using big characters of size 7x7.
 This program searches through an array and finds a number using
 a binary search algorithm both iteratively and recursively.
 
+#### 6. Polynomials
+
+This program performs addition, multiplication,
+derivatives, and integrals of polynomials.
+
 ## Logic (Prolog)
 
 #### 1. Family tree
