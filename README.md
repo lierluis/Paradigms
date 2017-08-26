@@ -1,0 +1,7 @@
+# Paradigms
+
+## Procedural
+
+## Logic
+
+## Functional
