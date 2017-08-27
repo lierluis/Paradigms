@@ -80,7 +80,7 @@ and standard deviation of numbers stored in an array.
 
 This program sorts an array v without changing it and returns the sorted array.
 
-#### 3. Triangles
+#### 3. Triangle
 
 This program computes the perimeter and the area of
 arbitrary triangles and classifies them as being either
@@ -98,3 +98,43 @@ returns `true` if amin <= a[i] <= amax for all values of i.
     * 0 if the array is not sorted
     * +1 if a[0] <= a[1] <= a[2] <= ... (increasing sequence)
     * -1 if a[0] >= a[1] >= a[2] >= ... (decreasing sequence)
+
+## Extra: BNF (Backus-Naur form)
+
+#### 1. numbers.txt
+
+BNF syntax definitions of the following objects:
+
+1. Natural number (1, 2, 3, ...)
+2. Unsigned integer (0, 1, 2, 3, ...)
+3. Integer (..., -2, -1, 0, 1, 2, ...)
+4. Odd number (..., -3, -1, 1, 3, ...)
+5. Even number (..., -4, -2, 0, 2, 4, ...)
+6. Integer divisible by five (..., -10, -5, 0, 5, 10, ...)
+
+#### 2. input_output.txt
+
+BNF definition of the syntax of (all possible)
+input and output statements in C++.
+
+Example input statement:
+
+```c++
+cin >> sclr >> vec[2*i-1] >> mat[f(i)][j+k] >> t[i/3][j][k];
+```
+
+Example output statement:
+
+```c++
+cout    << 12.34*a/rate << " " << 43.21 << " "
+        << alpha + x[2*i-1] << " " << (p && q) << " "
+        << pow(t[i][j], 1.2) << " string " << 's'
+        << " " << myfun(x, sin(x+y), third_argument);
+```
+
+Note: 
+* Variables may have any number of indices and
+indices can be arbitrary arithmetic expressions.
+* Theoretically, I/O statements can reach rather high
+levels of complexity; therefore, options beyond those
+presented inthe above examples are not included.
