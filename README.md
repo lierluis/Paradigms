@@ -6,7 +6,7 @@
 
 This program finds the longest sequence of identical numbers in a sorted array.
 
-#### 2. Parabolic Aproximation
+#### 2. Parabolic Approximation
 
 This program reads 3 points on a curve: (x1, y1), (x2, y2), (x3, y3)
 and computes y values for n=40 equidistant x values such that
@@ -132,9 +132,9 @@ cout    << 12.34*a/rate << " " << 43.21 << " "
         << " " << myfun(x, sin(x+y), third_argument);
 ```
 
-Note: 
+Note:
 * Variables may have any number of indices and
 indices can be arbitrary arithmetic expressions.
 * Theoretically, I/O statements can reach rather high
 levels of complexity; therefore, options beyond those
-presented inthe above examples are not included.
+presented in the above examples are not included.
