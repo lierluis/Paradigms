@@ -68,3 +68,33 @@ This program uses the findall predicate in Prolog
 to find the youngest grandchildren of a person P.
 
 ## Functional
+
+## Object-Oriented (Ruby)
+
+#### 1. Mean & sigma
+
+This program calculates and returns the mean value
+and standard deviation of numbers stored in an array.
+
+#### 2. Sort array
+
+This program sorts an array v without changing it and returns the sorted array.
+
+#### 3. Triangles
+
+This program computes the perimeter and the area of
+arbitrary triangles and classifies them as being either
+equilateral, isosceles, scalene, right, or not a triangle.
+
+#### 4. Recognizer methods
+
+This program implements the recognizer methods `limited?` and `sorted?` that
+expand the Ruby class Array.
+
+* The expression `array.limited?(amin,amax)`
+returns `true` if amin <= a[i] <= amax for all values of i.
+
+* The expression `array.sorted?` returns
+    * 0 if the array is not sorted
+    * +1 if a[0] <= a[1] <= a[2] <= ... (increasing sequence)
+    * -1 if a[0] >= a[1] >= a[2] >= ... (decreasing sequence)
