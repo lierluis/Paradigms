@@ -1,0 +1,27 @@
+<digit>::=0|1|2|3|4|5|6|7|8|9
+<unsigned int>::=<digit>|<unsigned int><digit>
+<int>::=<sign><unsigned int>
+<sign>::=+|-|<empty>
+<empty>::=
+<number>::=<int>|<int>.<unsigned int>
+<letter>::=a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z
+<identifier char>::=<digit>|_|<letter>
+<identifier>::=<letter>|_|<identifier><identifier char>
+<function>::=<identifier>(<list>)
+<list>::=<expr>|<list>,<expr>|<empty>
+<expr>::=<number>|<variable>|<function>
+    <expr>+<expr>|<expr>-<expr>|<expr>*<expr>|<expr>/<expr>|<expr>%<expr>|
+    (<expr> && <expr>)|(<expr> || <expr>)|!(<expr>)
+<variable>::=<identifier>|<variable>[<expr>]
+<input>::=<expr>|<input> >> <expr>
+<cin>::=cin >> <input>;
+
+<whitespace>::=
+<special char>::=`|~|!|@|#|$|%|^|&|*|(|)|-|+|=|[|]|{|}|||\|:|;|'|"|,|.|<|>|?|/
+<string char>::=<whitespace>|<identifier char>|<special char>
+<string structure>::=<string char>|<string structure><string char>
+<string>::="<string structure>"
+<char>::='<string char>'
+<output value>::=<expr>|<string>|<char>
+<output>::=<output value>|<output> << <output value>
+<cout>::=cout << <output>;
