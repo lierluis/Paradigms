@@ -58,4 +58,13 @@ This program solves the 8 queens problem (location of 8 queens
 on a chess board such that no queens have each other in check,
 i.e., are not located in the same row/column/diagonal).
 
+#### 6. List min & max sum
+
+This program finds the sum of the min and max of a list in Prolog.
+
+#### 7. Findall
+
+This program uses the findall predicate in Prolog
+to find the youngest grandchildren of a person P.
+
 ## Functional
