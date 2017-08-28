@@ -67,7 +67,36 @@ This program finds the sum of the min and max of a list in Prolog.
 This program uses the findall predicate in Prolog
 to find the youngest grandchildren of a person P.
 
-## Functional
+## Functional (Racket/Scheme)
+
+#### 1. Sigma
+
+This program computes the standard deviation of any number of arguments.
+
+#### 2. Histogram
+
+This program recursively prints a histogram of stars for a list of integers.
+
+#### 3. Max of function
+
+This program computes the maximum max(f x1 x2) of a function f within the
+interval [x1, x2]. It uses the trisection method and finds the coordinates
+of maximum xmax with an accuracy of 6 significant decimal digits.
+
+#### 4. Scalar product of two vectors
+
+This program computes the scalar product of two vectors
+both iteratively (using the DO loop) and recursively.
+
+#### 5. Matrix row & col
+
+The files "matrix1.dat" and "matrix2.dat" contain two rectangular matrices.
+In both cases the first row contains the number of rows and columns in the
+matrix. The remaining rows contain the elements within the matrix.
+
+This program reads from a file containing a matrix and
+outputs any one its rows or columns. The matrices are
+stored in memory as vectors whose components are vectors.
 
 ## Object-Oriented (Ruby)
 
@@ -91,8 +120,8 @@ equilateral, isosceles, scalene, right, or not a triangle.
 This program implements the recognizer methods `limited?` and `sorted?` that
 expand the Ruby class Array.
 
-* The expression `array.limited?(amin,amax)`
-returns `true` if amin <= a[i] <= amax for all values of i.
+* The expression `array.limited?(amin,amax)` returns
+`true` if amin <= a[i] <= amax for all values of i.
 
 * The expression `array.sorted?` returns
     * 0 if the array is not sorted
